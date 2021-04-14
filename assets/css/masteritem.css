@@ -1,0 +1,35 @@
+.plr15{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.talukmaster [type=search] {
+    outline-offset: 0px !important;
+    border: 1px solid #8a8a8a;
+    border-radius: 5px;
+}
+
+.talukmaster{
+        width: 80%;
+    margin: auto;
+}
+.sattamandrammaster [type=search] {
+    outline-offset: 0px !important;
+    border: 1px solid #8a8a8a;
+    border-radius: 5px;
+}
+
+.sattamandrammaster{
+    width: 80%;
+    margin: auto;
+}
+
+.nadalumandrammaster [type=search] {
+    outline-offset: 0px !important;
+    border: 1px solid #8a8a8a;
+    border-radius: 5px;
+}
+
+.nadalumandrammaster{
+    width: 80%;
+    margin: auto;
+}

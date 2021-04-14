@@ -1,0 +1,185 @@
+.frm .container {
+    max-width: 1024px;
+  }
+  
+.frm .material-textfield {
+    position: relative;  
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px !important;
+  }
+  
+.frm label {
+    position: absolute;
+    font-size: 1rem;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: white;
+    color: gray;
+    padding: 0 0.3rem;
+    margin: 0 1rem;
+    transition: .1s ease-out;
+    transform-origin: left top;
+    pointer-events: none;
+  }
+.frm textarea,
+.frm select,
+.frm input:not(.uk-button) {
+    font-size: 1rem;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 5px;  
+    padding: 0.4rem;
+    color: "#000";
+    transition: 0.1s ease-out;
+    width: 100%;
+    max-width: 400px;
+  }
+.frm input[type=date] {
+    width: auto;
+    min-width: 160px;
+    max-width: 200px;
+}
+  .frm input[type=radio]{
+     width: auto;  
+     margin-right: 5px;
+  }
+  .frm textarea:focus,
+.frm input:focus {
+    border-color: #6200EE;  
+  }
+  .frm textarea:focus + label,
+.frm input:focus + label {
+    color: #6200EE;
+    top: 0;
+    transform: translateY(-50%) scale(.9);
+  }
+.frm select.lblclass + label,  
+.frm textarea:not(:placeholder-shown) + label,
+.frm input:not(:placeholder-shown) + label {
+    top: 0;
+    transform: translateY(-50%) scale(.9);
+  }
+  select {
+    text-indent: 4px;
+}
+.frm input[type=date],
+.frm select {
+    background-color: white !important;
+}
+  /***********/
+  .h2, h2 {
+    font-size: 25px;
+}
+
+.disflx{
+    display: flex;
+}
+.dispnone{
+    display: none;
+}
+.pl0{
+    padding-left: 0;
+}
+.pr0{
+    padding-right: 0;
+}
+.alc{
+    align-items: center;
+}
+#hobbies input,
+div#helpfromtrust input {
+    width: auto;
+    max-width: 87px;
+}
+.frm input:-internal-autofill-selected {
+    background-color: "fff" !important;
+}
+#membershipfeespaiddiv,
+#havingmembershipdiv{
+    display: none;
+}
+.lblresetstyle{
+  position: relative !important; 
+  top: 0 !important; 
+  transform: none !important; 
+  margin-left: 0 !important;
+}
+.dispinlinetbl{
+  display: inline-table;
+}
+.pt20{
+  padding-top: 20px;
+}
+h4 {
+  margin-bottom: 25px;
+}
+.plr5{	
+  padding-left: 5px;	
+  padding-right: 5px;	
+}
+@media screen and (max-width: 756px) {
+  
+.disflx{
+    display: block;
+}
+.resdisflx{
+  display: flex;
+}
+.resdisblock{
+display: block;
+}
+.frm textarea.reswidth100 {
+  max-width: 100%;
+}
+}
+@media screen and (max-width: 500px) {
+  .frm textarea, .frm select, .frm input {
+    width: 100%;
+    max-width: 100%;
+}
+.resp3{
+  padding: 3px;
+}
+.frm .container {
+  max-width: 1024px;
+  padding: 5px;
+}
+.content {
+  padding: 7px;
+}
+.frm textarea, .frm select, .frm input,
+.frm label {
+  font-size: 13px;
+}
+label#age {
+  display: flex;
+  margin-right: 2px;
+}
+.h1, h1 {
+  font-size: 30px;
+}
+.h2, h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.h4, h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+}
+@media screen and (max-width: 360px) {
+  #hobbies,
+  div#helpfromtrust {
+    display: inherit !important;
+}
+.resdisblock360{
+  display: block;
+  }
+  
+.dtpicker{
+    width: 100% !important;
+}
+
+}

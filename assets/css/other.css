@@ -1,0 +1,40 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cadetblue;
+    height: 100%;
+}
+
+.login .content{
+    width: 400px;
+    background-color: #fff;
+}
+form#login {
+    padding: 30px;
+}
+form#login input[type="text"] {
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #d8d8d8;
+}
+
+.loginbtndiv {
+    display: flex;
+    justify-content: center;
+    background-color: cadetblue;
+    margin-top: 25px;
+}
+.btnlogin{
+    color: #fff;    
+    padding: 10px;
+}
+
